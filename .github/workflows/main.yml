@@ -43,3 +43,18 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+#   deploy:
+# #   See process documented here to publish a ClickOnce deployment to GitHub Pages
+# #   https://www.jeeshenlee.com/2020/10/how-to-host-clickonce-installer-on.html
+#     runs-on: windows-latest
+    
+#     steps:
+#       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+#       - uses: actions/checkout@v2
+      
+#       - name: setup-msbuild
+#         uses: microsoft/setup-msbuild@v1
+        
+# #       - name: Deploy ClickOnce to GitHub Pages site
+# #         run: msbuild publish ??
